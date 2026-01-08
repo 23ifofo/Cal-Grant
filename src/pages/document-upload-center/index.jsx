@@ -4,6 +4,7 @@ import Header from '../../components/ui/Header';
 import { supabase } from '../../lib/supabaseClient';
 import ProgressNavigationBar from '../../components/ui/ProgressNavigationBar';
 import ApplicationStatusWidget from '../../components/ui/ApplicationStatusWidget';
+import { getNextDeadline } from '../../config/deadlines';
 import DocumentStatusIndicator from '../../components/ui/DocumentStatusIndicator';
 import DocumentCategoryCard from './components/DocumentCategoryCard';
 import UploadedDocumentItem from './components/UploadedDocumentItem';
@@ -348,7 +349,7 @@ const DocumentUploadCenter = () => {
       <ProgressNavigationBar currentSection={2} totalSections={5} />
       <ApplicationStatusWidget
         completionPercentage={totalRequired > 0 ? Math.round((totalUploaded / totalRequired) * 100) : 0}
-        nextDeadline="2025-01-15"
+        nextDeadline={getNextDeadline()}
         criticalNotifications={missingDocuments.length > 0 ? 1 : 0}
       />
 

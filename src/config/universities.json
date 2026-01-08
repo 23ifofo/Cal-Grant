@@ -1,339 +1,783 @@
 {
   "universities": {
-    "grambling": {
-      "id": "grambling-su",
-      "name": "Grambling State University",
+    "uc-berkeley": {
+      "id": "uc-berkeley",
+      "name": "University of California, Berkeley",
       "type": "public",
-      "email": "scholarships@gram.edu",
-      "phone": "(318) 274-2000",
-      "location": "Grambling, Louisiana",
+      "email": "admissions@berkeley.edu",
+      "phone": "",
+      "location": "Alameda County, California",
       "essayPrompts": [
-        "Why do you want to attend Grambling State University?",
-        "Describe your leadership experience and community impact."
+        "Why do you want to attend UC Berkeley?",
+        "Describe a project or idea that excites you."
       ]
     },
-    "lsu-br": {
-      "id": "lsu-baton-rouge",
-      "name": "Louisiana State University (Baton Rouge)",
+    "csu-east-bay": {
+      "id": "csu-east-bay",
+      "name": "California State University, East Bay",
       "type": "public",
-      "email": "scholarships@lsu.edu",
-      "phone": "(225) 578-1000",
-      "location": "Baton Rouge, Louisiana",
+      "email": "admissions@csueastbay.edu",
+      "phone": "",
+      "location": "Alameda/Contra Costa County, California",
       "essayPrompts": [
-        "What attracts you to LSU Baton Rouge?",
-        "Share a moment that shaped your values."
+        "Why CSU East Bay?",
+        "Share how you contribute to your community."
       ]
     },
-    "lsu-alexandria": {
-      "id": "lsu-alexandria",
-      "name": "Louisiana State University at Alexandria",
+    "csu-chico": {
+      "id": "csu-chico",
+      "name": "California State University, Chico",
       "type": "public",
-      "email": "admissions@lsua.edu",
-      "phone": "(318) 445-3672",
-      "location": "Alexandria, Louisiana",
+      "email": "admissions@csuchico.edu",
+      "phone": "",
+      "location": "Butte County, California",
       "essayPrompts": [
-        "Why LSU Alexandria?",
-        "Describe your leadership journey."
-      ]
-    },
-    "lsu-eunice": {
-      "id": "lsu-eunice",
-      "name": "Louisiana State University at Eunice",
-      "type": "public",
-      "email": "admissions@lsue.edu",
-      "phone": "(337) 550-1300",
-      "location": "Eunice, Louisiana",
-      "essayPrompts": [
-        "Why LSU Eunice?",
-        "Tell us about your community involvement."
-      ]
-    },
-    "lsu-shreveport": {
-      "id": "lsu-shreveport",
-      "name": "Louisiana State University in Shreveport",
-      "type": "public",
-      "email": "admissions@lsus.edu",
-      "phone": "(318) 797-5000",
-      "location": "Shreveport, Louisiana",
-      "essayPrompts": [
-        "What draws you to LSUS?",
-        "Describe a challenge you overcame."
-      ]
-    },
-    "lsu-hsc-no": {
-      "id": "lsu-hsc-new-orleans",
-      "name": "LSU Health Sciences Center New Orleans",
-      "type": "public",
-      "email": "admissions@lsuhsc.edu",
-      "phone": "(504) 568-6000",
-      "location": "New Orleans, Louisiana",
-      "essayPrompts": [
-        "Why health sciences at LSU New Orleans?",
-        "Describe your commitment to healthcare."
-      ]
-    },
-    "lsu-hsc-shreveport": {
-      "id": "lsu-hsc-shreveport",
-      "name": "LSU Health Sciences Center Shreveport",
-      "type": "public",
-      "email": "admissions@lsuhscshreveport.edu",
-      "phone": "(318) 675-5000",
-      "location": "Shreveport, Louisiana",
-      "essayPrompts": [
-        "Why LSU Health Sciences Shreveport?",
-        "Share your healthcare aspirations."
-      ]
-    },
-    "louisiana-tech": {
-      "id": "louisiana-tech",
-      "name": "Louisiana Tech University",
-      "type": "public",
-      "email": "scholarships@latech.edu",
-      "phone": "(318) 257-0211",
-      "location": "Ruston, Louisiana",
-      "essayPrompts": [
-        "Why Louisiana Tech?",
-        "Describe your engineering or technical interests."
-      ]
-    },
-    "mcneese": {
-      "id": "mcneese-state",
-      "name": "McNeese State University",
-      "type": "public",
-      "email": "admissions@mcneese.edu",
-      "phone": "(337) 475-5000",
-      "location": "Lake Charles, Louisiana",
-      "essayPrompts": [
-        "Why McNeese?",
-        "Tell us about your academic goals."
-      ]
-    },
-    "nicholls": {
-      "id": "nicholls-state",
-      "name": "Nicholls State University",
-      "type": "public",
-      "email": "admissions@nicholls.edu",
-      "phone": "(985) 448-4000",
-      "location": "Thibodaux, Louisiana",
-      "essayPrompts": [
-        "Why Nicholls State?",
-        "Describe your commitment to education."
-      ]
-    },
-    "northwestern": {
-      "id": "northwestern-state",
-      "name": "Northwestern State University",
-      "type": "public",
-      "email": "admissions@nsula.edu",
-      "phone": "(318) 357-6000",
-      "location": "Natchitoches, Louisiana",
-      "essayPrompts": [
-        "Why Northwestern State?",
-        "Share your academic journey."
-      ]
-    },
-    "southeastern": {
-      "id": "southeastern-louisiana",
-      "name": "Southeastern Louisiana University",
-      "type": "public",
-      "email": "admissions@selu.edu",
-      "phone": "(985) 549-2000",
-      "location": "Hammond, Louisiana",
-      "essayPrompts": [
-        "Why Southeastern Louisiana?",
-        "Tell us about your leadership experience."
-      ]
-    },
-    "suu-br": {
-      "id": "southern-u-baton-rouge",
-      "name": "Southern University and A&M College (Baton Rouge)",
-      "type": "public",
-      "email": "admissions@subr.edu",
-      "phone": "(225) 771-4500",
-      "location": "Baton Rouge, Louisiana",
-      "essayPrompts": [
-        "Why Southern University Baton Rouge?",
-        "Describe your commitment to your community."
-      ]
-    },
-    "suu-no": {
-      "id": "southern-u-new-orleans",
-      "name": "Southern University at New Orleans",
-      "type": "public",
-      "email": "admissions@suno.edu",
-      "phone": "(504) 286-5000",
-      "location": "New Orleans, Louisiana",
-      "essayPrompts": [
-        "Why SUNO?",
-        "Tell us about your goals."
-      ]
-    },
-    "suu-shreveport": {
-      "id": "southern-u-shreveport",
-      "name": "Southern University at Shreveport",
-      "type": "public",
-      "email": "admissions@sus.edu",
-      "phone": "(318) 676-3000",
-      "location": "Shreveport, Louisiana",
-      "essayPrompts": [
-        "Why SUS?",
+        "Why CSU Chico?",
         "Describe your academic interests."
       ]
     },
-    "ul-lafayette": {
-      "id": "ul-lafayette",
-      "name": "University of Louisiana at Lafayette",
+    "csu-fresno": {
+      "id": "csu-fresno",
+      "name": "California State University, Fresno",
       "type": "public",
-      "email": "admissions@louisiana.edu",
-      "phone": "(337) 482-1000",
-      "location": "Lafayette, Louisiana",
+      "email": "admissions@csufresno.edu",
+      "phone": "",
+      "location": "Fresno County, California",
       "essayPrompts": [
-        "Why UL Lafayette?",
-        "Share your future aspirations."
+        "Why CSU Fresno?",
+        "Tell us about your career goals."
       ]
     },
-    "ul-monroe": {
-      "id": "ul-monroe",
-      "name": "University of Louisiana at Monroe",
+    "cal-poly-humboldt": {
+      "id": "cal-poly-humboldt",
+      "name": "Cal Poly Humboldt",
       "type": "public",
-      "email": "admissions@ulm.edu",
-      "phone": "(318) 342-1000",
-      "location": "Monroe, Louisiana",
+      "email": "admissions@humboldt.edu",
+      "phone": "",
+      "location": "Humboldt County, California",
       "essayPrompts": [
-        "Why ULM?",
-        "Tell us about your strengths."
+        "Why Cal Poly Humboldt?",
+        "Describe an experience with the natural environment."
       ]
     },
-    "uno": {
-      "id": "uno-new-orleans",
-      "name": "University of New Orleans",
+    "csu-bakersfield": {
+      "id": "csu-bakersfield",
+      "name": "California State University, Bakersfield",
       "type": "public",
-      "email": "admissions@uno.edu",
-      "phone": "(504) 280-6000",
-      "location": "New Orleans, Louisiana",
+      "email": "admissions@csub.edu",
+      "phone": "",
+      "location": "Kern County, California",
       "essayPrompts": [
-        "Why UNO?",
-        "Describe your academic journey."
+        "Why CSU Bakersfield?",
+        "Share a challenge you overcame."
       ]
     },
-    "centenary": {
-      "id": "centenary-college",
-      "name": "Centenary College of Louisiana",
-      "type": "private",
-      "email": "admissions@centenary.edu",
-      "phone": "(318) 869-5131",
-      "location": "Shreveport, Louisiana",
+    "ucla": {
+      "id": "ucla",
+      "name": "University of California, Los Angeles",
+      "type": "public",
+      "email": "admissions@ucla.edu",
+      "phone": "",
+      "location": "Los Angeles County, California",
       "essayPrompts": [
-        "Why Centenary?",
-        "Tell us about your values."
+        "Why UCLA?",
+        "Describe an achievement you're proud of."
       ]
     },
-    "dillard": {
-      "id": "dillard-university",
-      "name": "Dillard University",
-      "type": "private",
-      "email": "admissions@dillard.edu",
-      "phone": "(504) 283-8822",
-      "location": "New Orleans, Louisiana",
+    "csu-dominguez-hills": {
+      "id": "csu-dominguez-hills",
+      "name": "California State University, Dominguez Hills",
+      "type": "public",
+      "email": "admissions@csudh.edu",
+      "phone": "",
+      "location": "Los Angeles County, California",
       "essayPrompts": [
-        "Why Dillard?",
-        "Describe your commitment to service."
+        "Why CSU Dominguez Hills?",
+        "How will you contribute to campus life?"
       ]
     },
-    "fmolu": {
-      "id": "fmolu",
-      "name": "Franciscan Missionaries of Our Lady University",
-      "type": "private",
-      "email": "admissions@fmolu.edu",
-      "phone": "(225) 765-0000",
-      "location": "Baton Rouge, Louisiana",
+    "csu-los-angeles": {
+      "id": "csu-los-angeles",
+      "name": "California State University, Los Angeles",
+      "type": "public",
+      "email": "admissions@calstatela.edu",
+      "phone": "",
+      "location": "Los Angeles County, California",
       "essayPrompts": [
-        "Why FMOLU?",
-        "Tell us about your values."
+        "Why CSU Los Angeles?",
+        "Tell us about your leadership experience."
       ]
     },
-    "lcu": {
-      "id": "louisiana-christian-u",
-      "name": "Louisiana Christian University",
-      "type": "private",
-      "email": "admissions@lcu.edu",
-      "phone": "(318) 487-7000",
-      "location": "Pineville, Louisiana",
+    "csu-northridge": {
+      "id": "csu-northridge",
+      "name": "California State University, Northridge",
+      "type": "public",
+      "email": "admissions@csun.edu",
+      "phone": "",
+      "location": "Los Angeles County, California",
       "essayPrompts": [
-        "Why Louisiana Christian University?",
-        "Share your faith journey."
+        "Why CSU Northridge?",
+        "Describe a meaningful collaboration."
       ]
     },
-    "loyola": {
-      "id": "loyola-nola",
-      "name": "Loyola University New Orleans",
-      "type": "private",
-      "email": "scholarships@loyno.edu",
-      "phone": "(504) 865-3240",
-      "location": "New Orleans, Louisiana",
+    "cal-poly-pomona": {
+      "id": "cal-poly-pomona",
+      "name": "California State Polytechnic University, Pomona",
+      "type": "public",
+      "email": "admissions@cpp.edu",
+      "phone": "",
+      "location": "Los Angeles County, California",
       "essayPrompts": [
-        "Why Loyola University New Orleans?",
-        "Describe your impact on your community."
+        "Why Cal Poly Pomona?",
+        "Describe a hands-on project you've completed."
       ]
     },
-    "nobts": {
-      "id": "new-orleans-baptist-seminary",
-      "name": "New Orleans Baptist Theological Seminary",
-      "type": "private",
-      "email": "admissions@nobts.edu",
-      "phone": "(504) 282-4455",
-      "location": "New Orleans, Louisiana",
+    "uc-merced": {
+      "id": "uc-merced",
+      "name": "University of California, Merced",
+      "type": "public",
+      "email": "admissions@ucmerced.edu",
+      "phone": "",
+      "location": "Madera/Merced County, California",
       "essayPrompts": [
-        "Why NOBTS?",
-        "Tell us about your calling."
+        "Why UC Merced?",
+        "Share your academic inspirations."
       ]
     },
-    "st-joseph": {
-      "id": "st-joseph-seminary",
-      "name": "St. Joseph Seminary College",
-      "type": "private",
-      "email": "admissions@sjasc.edu",
-      "phone": "(985) 867-2273",
-      "location": "St. Benedict, Louisiana",
+    "csu-monterey-bay": {
+      "id": "csu-monterey-bay",
+      "name": "California State University, Monterey Bay",
+      "type": "public",
+      "email": "admissions@csumb.edu",
+      "phone": "",
+      "location": "Monterey County, California",
       "essayPrompts": [
-        "Why St. Joseph Seminary?",
-        "Share your spiritual journey."
+        "Why CSU Monterey Bay?",
+        "Describe your interest in applied learning."
       ]
     },
-    "tulane": {
-      "id": "tulane-nola",
-      "name": "Tulane University",
-      "type": "private",
-      "email": "scholarships@tulane.edu",
-      "phone": "(504) 862-8000",
-      "location": "New Orleans, Louisiana",
+    "uc-irvine": {
+      "id": "uc-irvine",
+      "name": "University of California, Irvine",
+      "type": "public",
+      "email": "admissions@uci.edu",
+      "phone": "",
+      "location": "Orange County, California",
       "essayPrompts": [
-        "Why Tulane University?",
-        "Describe your leadership experience."
+        "Why UC Irvine?",
+        "Describe a research or academic interest."
       ]
     },
-    "uhc": {
-      "id": "university-holy-cross",
-      "name": "University of Holy Cross",
-      "type": "private",
-      "email": "admissions@uhcno.edu",
-      "phone": "(504) 398-2175",
-      "location": "New Orleans, Louisiana",
+    "csu-fullerton": {
+      "id": "csu-fullerton",
+      "name": "California State University, Fullerton",
+      "type": "public",
+      "email": "admissions@fullerton.edu",
+      "phone": "",
+      "location": "Orange County, California",
       "essayPrompts": [
-        "Why Holy Cross?",
-        "Tell us about your values."
+        "Why CSU Fullerton?",
+        "Tell us about your community involvement."
       ]
     },
-    "xavier": {
-      "id": "xavier-nola",
-      "name": "Xavier University of Louisiana",
-      "type": "private",
-      "email": "scholarships@xula.edu",
-      "phone": "(504) 520-7300",
-      "location": "New Orleans, Louisiana",
+    "uc-riverside": {
+      "id": "uc-riverside",
+      "name": "University of California, Riverside",
+      "type": "public",
+      "email": "admissions@ucr.edu",
+      "phone": "",
+      "location": "Riverside County, California",
       "essayPrompts": [
-        "Why Xavier University?",
-        "Describe your commitment to service."
+        "Why UC Riverside?",
+        "Share your academic goals."
+      ]
+    },
+    "csu-sacramento": {
+      "id": "csu-sacramento",
+      "name": "California State University, Sacramento",
+      "type": "public",
+      "email": "admissions@csus.edu",
+      "phone": "",
+      "location": "Sacramento County, California",
+      "essayPrompts": [
+        "Why CSU Sacramento?",
+        "Describe your leadership or service."
+      ]
+    },
+    "csu-san-bernardino": {
+      "id": "csu-san-bernardino",
+      "name": "California State University, San Bernardino",
+      "type": "public",
+      "email": "admissions@csusb.edu",
+      "phone": "",
+      "location": "San Bernardino County, California",
+      "essayPrompts": [
+        "Why CSU San Bernardino?",
+        "Tell us about your future plans."
+      ]
+    },
+    "uc-san-diego": {
+      "id": "uc-san-diego",
+      "name": "University of California, San Diego",
+      "type": "public",
+      "email": "admissions@ucsd.edu",
+      "phone": "",
+      "location": "San Diego County, California",
+      "essayPrompts": [
+        "Why UC San Diego?",
+        "Describe your academic interests."
+      ]
+    },
+    "sdsu": {
+      "id": "sdsu",
+      "name": "San Diego State University",
+      "type": "public",
+      "email": "admissions@sdsu.edu",
+      "phone": "",
+      "location": "San Diego County, California",
+      "essayPrompts": [
+        "Why SDSU?",
+        "Share your community involvement."
+      ]
+    },
+    "csu-san-marcos": {
+      "id": "csu-san-marcos",
+      "name": "California State University San Marcos",
+      "type": "public",
+      "email": "admissions@csusm.edu",
+      "phone": "",
+      "location": "San Diego County, California",
+      "essayPrompts": [
+        "Why CSU San Marcos?",
+        "Describe an impactful experience."
+      ]
+    },
+    "ucsf": {
+      "id": "ucsf",
+      "name": "University of California, San Francisco",
+      "type": "public",
+      "email": "admissions@ucsf.edu",
+      "phone": "",
+      "location": "San Francisco County, California",
+      "essayPrompts": [
+        "Why UCSF (graduate program)?",
+        "Describe your healthcare or research interests."
+      ]
+    },
+    "sfsu": {
+      "id": "sfsu",
+      "name": "San Francisco State University",
+      "type": "public",
+      "email": "admissions@sfsu.edu",
+      "phone": "",
+      "location": "San Francisco County, California",
+      "essayPrompts": [
+        "Why SFSU?",
+        "Share your academic background."
+      ]
+    },
+    "cal-poly-slo": {
+      "id": "cal-poly-slo",
+      "name": "Cal Poly San Luis Obispo",
+      "type": "public",
+      "email": "admissions@calpoly.edu",
+      "phone": "",
+      "location": "San Luis Obispo County, California",
+      "essayPrompts": [
+        "Why Cal Poly SLO?",
+        "Describe a technical or creative project."
+      ]
+    },
+    "uc-santa-barbara": {
+      "id": "uc-santa-barbara",
+      "name": "University of California, Santa Barbara",
+      "type": "public",
+      "email": "admissions@ucsb.edu",
+      "phone": "",
+      "location": "Santa Barbara County, California",
+      "essayPrompts": [
+        "Why UCSB?",
+        "Share your academic interests."
+      ]
+    },
+    "san-jose-state": {
+      "id": "san-jose-state",
+      "name": "San José State University",
+      "type": "public",
+      "email": "admissions@sjsu.edu",
+      "phone": "",
+      "location": "Santa Clara County, California",
+      "essayPrompts": [
+        "Why San José State University?",
+        "Describe your career goals."
+      ]
+    },
+    "uc-santa-cruz": {
+      "id": "uc-santa-cruz",
+      "name": "University of California, Santa Cruz",
+      "type": "public",
+      "email": "admissions@ucsc.edu",
+      "phone": "",
+      "location": "Santa Cruz County, California",
+      "essayPrompts": [
+        "Why UC Santa Cruz?",
+        "Share a research or creative interest."
+      ]
+    },
+    "csu-maritime-academy": {
+      "id": "csu-maritime-academy",
+      "name": "California State University Maritime Academy",
+      "type": "public",
+      "email": "admissions@csum.edu",
+      "phone": "",
+      "location": "Solano/Marin County, California",
+      "essayPrompts": [
+        "Why CSU Maritime Academy?",
+        "Describe your interest in maritime studies."
+      ]
+    },
+    "sonoma-state": {
+      "id": "sonoma-state",
+      "name": "Sonoma State University",
+      "type": "public",
+      "email": "admissions@sonoma.edu",
+      "phone": "",
+      "location": "Sonoma County, California",
+      "essayPrompts": [
+        "Why Sonoma State?",
+        "Describe your community engagement."
+      ]
+    },
+    "csu-stanislaus": {
+      "id": "csu-stanislaus",
+      "name": "California State University, Stanislaus",
+      "type": "public",
+      "email": "admissions@csustan.edu",
+      "phone": "",
+      "location": "Stanislaus County, California",
+      "essayPrompts": [
+        "Why CSU Stanislaus?",
+        "Tell us about your academic path."
+      ]
+    },
+    "csu-channel-islands": {
+      "id": "csu-channel-islands",
+      "name": "California State University Channel Islands",
+      "type": "public",
+      "email": "admissions@csuci.edu",
+      "phone": "",
+      "location": "Ventura County, California",
+      "essayPrompts": [
+        "Why CSU Channel Islands?",
+        "Describe an interdisciplinary interest."
+      ]
+    },
+    "uc-davis": {
+      "id": "uc-davis",
+      "name": "University of California, Davis",
+      "type": "public",
+      "email": "admissions@ucdavis.edu",
+      "phone": "",
+      "location": "Yolo County, California",
+      "essayPrompts": [
+        "Why UC Davis?",
+        "Describe your interest in research or agriculture."
+      ]
+    },
+    "private-holy-names": {
+      "id": "holy-names-university",
+      "name": "Holy Names University",
+      "type": "private",
+      "email": "admissions@holynames.edu",
+      "phone": "",
+      "location": "Alameda County, California",
+      "essayPrompts": [
+        "Why Holy Names University?",
+        "Share a personal accomplishment."
+      ]
+    },
+    "mills-college": {
+      "id": "mills-college",
+      "name": "Mills College at Northeastern University",
+      "type": "private",
+      "email": "admissions@mills.edu",
+      "phone": "",
+      "location": "Alameda County, California",
+      "essayPrompts": [
+        "Why Mills College?",
+        "Describe a leadership experience."
+      ]
+    },
+    "saint-marys": {
+      "id": "saint-marys-college",
+      "name": "Saint Mary's College of California",
+      "type": "private",
+      "email": "admissions@stmarys-ca.edu",
+      "phone": "",
+      "location": "Contra Costa County, California",
+      "essayPrompts": [
+        "Why Saint Mary's College?",
+        "Share a value that guides you."
+      ]
+    },
+    "fresno-pacific": {
+      "id": "fresno-pacific-university",
+      "name": "Fresno Pacific University",
+      "type": "private",
+      "email": "admissions@fresno.edu",
+      "phone": "",
+      "location": "Fresno County, California",
+      "essayPrompts": [
+        "Why Fresno Pacific University?",
+        "Describe your community service."
+      ]
+    },
+    "caltech": {
+      "id": "caltech",
+      "name": "California Institute of Technology",
+      "type": "private",
+      "email": "admissions@caltech.edu",
+      "phone": "",
+      "location": "Los Angeles County, California",
+      "essayPrompts": [
+        "Why Caltech?",
+        "Describe a research problem you want to tackle."
+      ]
+    },
+    "usc": {
+      "id": "usc",
+      "name": "University of Southern California",
+      "type": "private",
+      "email": "admissions@usc.edu",
+      "phone": "",
+      "location": "Los Angeles County, California",
+      "essayPrompts": [
+        "Why USC?",
+        "Share an experience that shaped your goals."
+      ]
+    },
+    "loyola-marymount": {
+      "id": "loyola-marymount-university",
+      "name": "Loyola Marymount University",
+      "type": "private",
+      "email": "admissions@lmu.edu",
+      "phone": "",
+      "location": "Los Angeles County, California",
+      "essayPrompts": [
+        "Why LMU?",
+        "Describe your community contributions."
+      ]
+    },
+    "pepperdine": {
+      "id": "pepperdine-university",
+      "name": "Pepperdine University",
+      "type": "private",
+      "email": "admissions@pepperdine.edu",
+      "phone": "",
+      "location": "Los Angeles County, California",
+      "essayPrompts": [
+        "Why Pepperdine?",
+        "Share a leadership example."
+      ]
+    },
+    "dominican": {
+      "id": "dominican-university",
+      "name": "Dominican University of California",
+      "type": "private",
+      "email": "admissions@dominican.edu",
+      "phone": "",
+      "location": "Marin County, California",
+      "essayPrompts": [
+        "Why Dominican University?",
+        "Share an impactful experience."
+      ]
+    },
+    "miis": {
+      "id": "middlebury-institute-monterey",
+      "name": "Middlebury Institute of International Studies at Monterey",
+      "type": "private",
+      "email": "admissions@miis.edu",
+      "phone": "",
+      "location": "Monterey County, California",
+      "essayPrompts": [
+        "Why MIIS?",
+        "Describe your international or language interests."
+      ]
+    },
+    "chapman": {
+      "id": "chapman-university",
+      "name": "Chapman University",
+      "type": "private",
+      "email": "admissions@chapman.edu",
+      "phone": "",
+      "location": "Orange County, California",
+      "essayPrompts": [
+        "Why Chapman University?",
+        "Describe your creative or academic interests."
+      ]
+    },
+    "concordia-irvine": {
+      "id": "concordia-university-irvine",
+      "name": "Concordia University Irvine",
+      "type": "private",
+      "email": "admissions@cui.edu",
+      "phone": "",
+      "location": "Orange County, California",
+      "essayPrompts": [
+        "Why Concordia University Irvine?",
+        "Share your community or faith-based activities."
+      ]
+    },
+    "vanguard": {
+      "id": "vanguard-university",
+      "name": "Vanguard University",
+      "type": "private",
+      "email": "admissions@vanguard.edu",
+      "phone": "",
+      "location": "Orange County, California",
+      "essayPrompts": [
+        "Why Vanguard University?",
+        "Describe a service or leadership role."
+      ]
+    },
+    "soka": {
+      "id": "soka-university",
+      "name": "Soka University of America",
+      "type": "private",
+      "email": "admissions@soka.edu",
+      "phone": "",
+      "location": "Orange County, California",
+      "essayPrompts": [
+        "Why Soka University?",
+        "Describe an intercultural experience."
+      ]
+    },
+    "hope-intl": {
+      "id": "hope-international-university",
+      "name": "Hope International University",
+      "type": "private",
+      "email": "admissions@hiu.edu",
+      "phone": "",
+      "location": "Orange County, California",
+      "essayPrompts": [
+        "Why Hope International University?",
+        "Share your academic goals."
+      ]
+    },
+    "cal-baptist": {
+      "id": "california-baptist-university",
+      "name": "California Baptist University",
+      "type": "private",
+      "email": "admissions@calbaptist.edu",
+      "phone": "",
+      "location": "Riverside County, California",
+      "essayPrompts": [
+        "Why California Baptist University?",
+        "Describe your faith or service involvement."
+      ]
+    },
+    "la-sierra": {
+      "id": "la-sierra-university",
+      "name": "La Sierra University",
+      "type": "private",
+      "email": "admissions@lasierra.edu",
+      "phone": "",
+      "location": "Riverside County, California",
+      "essayPrompts": [
+        "Why La Sierra University?",
+        "Share your academic interests."
+      ]
+    },
+    "william-jessup": {
+      "id": "william-jessup-university",
+      "name": "William Jessup University",
+      "type": "private",
+      "email": "admissions@jessup.edu",
+      "phone": "",
+      "location": "Sacramento County, California",
+      "essayPrompts": [
+        "Why William Jessup University?",
+        "Describe a community contribution."
+      ]
+    },
+    "loma-linda": {
+      "id": "loma-linda-university",
+      "name": "Loma Linda University",
+      "type": "private",
+      "email": "admissions@llu.edu",
+      "phone": "",
+      "location": "San Bernardino County, California",
+      "essayPrompts": [
+        "Why Loma Linda University?",
+        "Describe your interest in health sciences."
+      ]
+    },
+    "university-san-diego": {
+      "id": "university-san-diego",
+      "name": "University of San Diego",
+      "type": "private",
+      "email": "admissions@sandiego.edu",
+      "phone": "",
+      "location": "San Diego County, California",
+      "essayPrompts": [
+        "Why USD?",
+        "Share a leadership or service example."
+      ]
+    },
+    "point-loma": {
+      "id": "point-loma-nazarene-university",
+      "name": "Point Loma Nazarene University",
+      "type": "private",
+      "email": "admissions@pointloma.edu",
+      "phone": "",
+      "location": "San Diego County, California",
+      "essayPrompts": [
+        "Why Point Loma?",
+        "Describe an experience that shaped you."
+      ]
+    },
+    "national-university": {
+      "id": "national-university",
+      "name": "National University",
+      "type": "private",
+      "email": "admissions@nu.edu",
+      "phone": "",
+      "location": "San Diego County, California",
+      "essayPrompts": [
+        "Why National University?",
+        "Share your educational goals."
+      ]
+    },
+    "usf": {
+      "id": "university-san-francisco",
+      "name": "University of San Francisco",
+      "type": "private",
+      "email": "admissions@usfca.edu",
+      "phone": "",
+      "location": "San Francisco County, California",
+      "essayPrompts": [
+        "Why USF?",
+        "Describe an experience that influenced your goals."
+      ]
+    },
+    "golden-gate": {
+      "id": "golden-gate-university",
+      "name": "Golden Gate University",
+      "type": "private",
+      "email": "admissions@ggu.edu",
+      "phone": "",
+      "location": "San Francisco County, California",
+      "essayPrompts": [
+        "Why Golden Gate University?",
+        "Describe your professional aspirations."
+      ]
+    },
+    "academy-art": {
+      "id": "academy-art-university",
+      "name": "Academy of Art University",
+      "type": "private",
+      "email": "admissions@academyart.edu",
+      "phone": "",
+      "location": "San Francisco County, California",
+      "essayPrompts": [
+        "Why Academy of Art University?",
+        "Describe your artistic practice."
+      ]
+    },
+    "university-pacific": {
+      "id": "university-pacific",
+      "name": "University of the Pacific",
+      "type": "private",
+      "email": "admissions@pacific.edu",
+      "phone": "",
+      "location": "San Joaquin County, California",
+      "essayPrompts": [
+        "Why University of the Pacific?",
+        "Share an academic achievement."
+      ]
+    },
+    "westmont": {
+      "id": "westmont-college",
+      "name": "Westmont College",
+      "type": "private",
+      "email": "admissions@westmont.edu",
+      "phone": "",
+      "location": "Santa Barbara County, California",
+      "essayPrompts": [
+        "Why Westmont College?",
+        "Describe a community or faith experience."
+      ]
+    },
+    "antioch": {
+      "id": "antioch-university",
+      "name": "Antioch University",
+      "type": "private",
+      "email": "admissions@antioch.edu",
+      "phone": "",
+      "location": "Santa Barbara County, California",
+      "essayPrompts": [
+        "Why Antioch University?",
+        "Share your civic engagement experience."
+      ]
+    },
+    "stanford": {
+      "id": "stanford-university",
+      "name": "Stanford University",
+      "type": "private",
+      "email": "admissions@stanford.edu",
+      "phone": "",
+      "location": "Santa Clara County, California",
+      "essayPrompts": [
+        "Why Stanford?",
+        "Describe an intellectual curiosity you pursue."
+      ]
+    },
+    "santa-clara-u": {
+      "id": "santa-clara-university",
+      "name": "Santa Clara University",
+      "type": "private",
+      "email": "admissions@scu.edu",
+      "phone": "",
+      "location": "Santa Clara County, California",
+      "essayPrompts": [
+        "Why Santa Clara University?",
+        "Share an experience that shaped your goals."
+      ]
+    },
+    "menlo-college": {
+      "id": "menlo-college",
+      "name": "Menlo College",
+      "type": "private",
+      "email": "admissions@menlo.edu",
+      "phone": "",
+      "location": "Santa Clara County, California",
+      "essayPrompts": [
+        "Why Menlo College?",
+        "Describe your leadership potential."
+      ]
+    },
+    "palo-alto-u": {
+      "id": "palo-alto-university",
+      "name": "Palo Alto University",
+      "type": "private",
+      "email": "admissions@pau.edu",
+      "phone": "",
+      "location": "Santa Clara County, California",
+      "essayPrompts": [
+        "Why Palo Alto University?",
+        "Share an interest in psychology or counseling."
+      ]
+    },
+    "cal-lutheran": {
+      "id": "california-lutheran-university",
+      "name": "California Lutheran University",
+      "type": "private",
+      "email": "admissions@callutheran.edu",
+      "phone": "",
+      "location": "Ventura County, California",
+      "essayPrompts": [
+        "Why Cal Lutheran?",
+        "Describe your community engagement."
       ]
     }
   }

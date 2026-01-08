@@ -1,6 +1,7 @@
 import React from 'react';
 import Icon from '../../../components/AppIcon';
 import useSelectedUniversity from '../../../hooks/useSelectedUniversity';
+import { getNextDeadline } from '../../../config/deadlines';
 
 const ScholarshipDetailsCard = () => {
   const selectedUniversity = useSelectedUniversity();
@@ -11,7 +12,7 @@ const ScholarshipDetailsCard = () => {
     amount: '$15,000',
     duration: 'Per Academic Year',
     renewable: true,
-    deadline: '2025-01-15',
+    deadline: getNextDeadline(),
     eligibility: [
       'Minimum 3.5 GPA required',
       'Full-time enrollment (12+ credit hours)',

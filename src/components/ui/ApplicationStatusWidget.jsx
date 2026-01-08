@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import { getNextDeadline } from '../../config/deadlines';
 import { useNavigate, useLocation } from 'react-router-dom';
 import Icon from '../AppIcon';
 import Button from './Button';
 
 const ApplicationStatusWidget = ({ 
   completionPercentage = 45, 
-  nextDeadline = '2025-01-15',
+  nextDeadline = getNextDeadline(),
   criticalNotifications = 2 
 }) => {
   const navigate = useNavigate();

@@ -3,7 +3,7 @@ import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
 import ScrollToTop from "components/ScrollToTop";
 import ErrorBoundary from "components/ErrorBoundary";
 import NotFound from "pages/NotFound";
-import LOSFAInfo from './pages/losfa-info';
+import CalGrantInfo from './pages/calgrant-info';
 import ApplicationForm from './pages/application-form';
 import ApplicationDashboard from './pages/application-dashboard';
 import Login from './pages/login';
@@ -16,9 +16,9 @@ const Routes = () => {
       <ErrorBoundary>
       <ScrollToTop />
       <RouterRoutes>
-        {/* LOSFA landing page with university selection */}
-        <Route path="/" element={<LOSFAInfo />} />
-        <Route path="/losfa" element={<LOSFAInfo />} />
+        {/* Cal Grant landing page with university selection */}
+        <Route path="/" element={<CalGrantInfo />} />
+        <Route path="/calgrant" element={<CalGrantInfo />} />
         <Route path="/application-form" element={<ApplicationForm />} />
         <Route path="/application-dashboard" element={<ApplicationDashboard />} />
         <Route path="/login" element={<Login />} />

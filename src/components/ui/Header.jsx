@@ -19,23 +19,26 @@ const Header = () => {
   const isActive = (path) => location?.pathname === path;
 
   const pathname = location?.pathname || '/';
-  const isLosfaLanding = pathname === '/' || pathname.startsWith('/losfa');
-  const portalName = isLosfaLanding
-    ? 'LOSFA Scholarship Portal'
+  const isLanding = pathname === '/' || pathname.startsWith('/calgrant');
+  const portalName = isLanding
+    ? 'Cal Grant Scholarship Portal'
     : (selectedUniversity ? `${selectedUniversity.name} Scholarship Portal` : 'Scholarship Portal');
 
   return (
-    <header className="sticky top-0 z-100 bg-card shadow-md">
+    <header className="sticky top-0 z-100 bg-gradient-to-r from-blue-600 to-blue-700 shadow-xl">
       <div className="mx-4 lg:mx-8">
-        <div className="flex items-center justify-between h-[60px]">
-          <div className="flex items-center gap-8">
-            <Link to={isLosfaLanding ? '/' : '/application-dashboard'} className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary/10 rounded-md flex items-center justify-center smooth-transition hover:bg-primary/20">
-                <Icon name="GraduationCap" size={24} color="var(--color-primary)" />
+        <div className="flex items-center justify-between h-[70px]">
+          <div className="flex items-center gap-6">
+            <Link to={isLanding ? '/' : '/application-dashboard'} className="flex items-center gap-3 group">
+              <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center smooth-transition hover:bg-white/30 group-hover:scale-110 border border-white/30">
+                <Icon name="Award" size={28} color="white" />
               </div>
-              <span className="text-xl font-heading font-semibold text-primary hidden sm:block">
-                {portalName}
-              </span>
+              <div className="hidden sm:block">
+                <p className="text-xs font-medium text-white/80 tracking-widest">CALIFORNIA</p>
+                <span className="text-lg font-heading font-bold text-white">
+                  Cal Grant
+                </span>
+              </div>
             </Link>
 
             <nav className="hidden lg:flex items-center gap-1">
@@ -45,8 +48,8 @@ const Header = () => {
                   to={item?.path}
                   className={`flex items-center gap-2 px-4 py-2 rounded-md smooth-transition hover-lift ${
                     isActive(item?.path)
-                      ? 'bg-primary text-primary-foreground'
-                      : 'text-foreground hover:bg-muted'
+                      ? 'bg-white/20 text-white'
+                      : 'text-white/80 hover:bg-white/10 hover:text-white'
                   }`}
                 >
                   <Icon name={item?.icon} size={18} />
@@ -70,7 +73,7 @@ const Header = () => {
         </div>
       </div>
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-card border-t border-border">
+        <div className="lg:hidden bg-blue-700 border-t border-blue-600">
           <nav className="flex flex-col p-4 gap-2">
             {navigationItems?.map((item) => (
               <Link
@@ -79,8 +82,8 @@ const Header = () => {
                 onClick={() => setMobileMenuOpen(false)}
                 className={`flex items-center gap-3 px-4 py-3 rounded-md smooth-transition ${
                   isActive(item?.path)
-                    ? 'bg-primary text-primary-foreground'
-                    : 'text-foreground hover:bg-muted'
+                    ? 'bg-white/20 text-white'
+                    : 'text-white/80 hover:bg-white/10 hover:text-white'
                 }`}
               >
                 <Icon name={item?.icon} size={20} />

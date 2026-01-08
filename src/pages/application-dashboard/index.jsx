@@ -3,6 +3,7 @@ import { supabase } from '../../lib/supabaseClient';
 import Header from '../../components/ui/Header';
 import ProgressNavigationBar from '../../components/ui/ProgressNavigationBar';
 import ApplicationStatusWidget from '../../components/ui/ApplicationStatusWidget';
+import { getNextDeadline } from '../../config/deadlines';
 import DocumentStatusIndicator from '../../components/ui/DocumentStatusIndicator';
 import ApplicationStatusCard from './components/ApplicationStatusCard';
 import TaskChecklistCard from './components/TaskChecklistCard';
@@ -53,7 +54,7 @@ const ApplicationDashboard = () => {
       <ProgressNavigationBar currentSection={0} totalSections={5} />
       <ApplicationStatusWidget 
         completionPercentage={45}
-        nextDeadline="2025-01-15"
+        nextDeadline={getNextDeadline()}
         criticalNotifications={2}
       />
       <DocumentStatusIndicator

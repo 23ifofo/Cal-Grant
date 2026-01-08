@@ -3,6 +3,7 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import Header from '../../components/ui/Header';
 import { supabase } from '../../lib/supabaseClient';
 import { mapFormDataToDatabase } from '../../utils/formToDatabase';
+import { getNextDeadline } from '../../config/deadlines';
 import ProgressNavigationBar from '../../components/ui/ProgressNavigationBar';
 import ApplicationStatusWidget from '../../components/ui/ApplicationStatusWidget';
 import DocumentStatusIndicator from '../../components/ui/DocumentStatusIndicator';
@@ -390,7 +391,7 @@ const ApplicationForm = () => {
       <ProgressNavigationBar currentSection={currentSection} totalSections={sections?.length} />
       <ApplicationStatusWidget 
         completionPercentage={Math.round(((currentSection + 1) / sections?.length) * 100)}
-        nextDeadline="2025-02-15"
+        nextDeadline={getNextDeadline()}
         criticalNotifications={0}
       />
       <DocumentStatusIndicator 
@@ -404,16 +405,16 @@ const ApplicationForm = () => {
           {/* Info banner displayed only on the first page (Personal Information) */}
           {currentSection === 0 && (
             <div className="mb-6 md:mb-8 space-y-4">
-              {/* LOSFA & Safety Notice */}
+              {/* Cal Grant & Safety Notice */}
               <div className="bg-accent/10 border border-accent rounded-lg p-4 md:p-6">
-                <p className="text-sm md:text-base font-semibold text-foreground mb-2">✓ LOSFA Scholarship — Free Application (No Fees)</p>
+                <p className="text-sm md:text-base font-semibold text-foreground mb-2">✓ Cal Grant Scholarship — Free Application (No Fees)</p>
                 <p className="text-xs md:text-sm text-muted-foreground mb-3">
-                  This is a legitimate LOSFA (Louisiana Student Financial Assistance) scholarship application. LOSFA awards scholarships to approximately <strong>46,000 students annually</strong> based on the number of qualified applicants. This application is <strong>completely free</strong> — LOSFA never charges application fees.
+                  This is a legitimate Cal Grant scholarship application. Cal Grant awards scholarships to eligible students based on the number of qualified applicants and available funding. This application is <strong>completely free</strong> — Cal Grant never charges application fees.
                 </p>
                 <div className="bg-error/10 border border-error rounded p-3 mb-3">
                   <p className="text-xs md:text-sm text-error font-semibold mb-1">⚠️ WARNING: Scholarship Scams</p>
                   <p className="text-xs md:text-sm text-muted-foreground">
-                    If anyone asks you for money to apply for a scholarship, it is a scam. Report suspicious activity to the Louisiana Attorney General: <strong>custserv@la.gov</strong> or call <strong>1-800-351-4889</strong>.
+                    If anyone asks you for money to apply for a scholarship, it is a scam. Report suspicious activity to the appropriate authorities or contact support at <strong>support@calgrant.ca.gov</strong>.
                   </p>
                 </div>
               </div>
